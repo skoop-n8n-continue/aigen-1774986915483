@@ -1,0 +1,37 @@
+{
+  "app_id": "aigen-1774986915483",
+  "document_version": 1,
+  "sections": {
+    "app_settings": {
+      "primary_color": {
+        "type": "color",
+        "label": "Primary Color",
+        "value": "#00b7af"
+      },
+      "background_color": {
+        "type": "color",
+        "label": "Background Color",
+        "value": "#10181f"
+      }
+    },
+    "hello_world": {
+      "title": {
+        "type": "text",
+        "label": "Title",
+        "value": "Hello World!"
+      },
+      "image": {
+        "type": "file",
+        "label": "Display Image",
+        "value": "assets/hello_image.png",
+        "meta": {
+          "accepted_formats": [
+            "png",
+            "jpg"
+          ],
+          "path": "assets/"
+        }
+      }
+    }
+  }
+}
